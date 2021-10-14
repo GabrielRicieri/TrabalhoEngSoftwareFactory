@@ -25,7 +25,7 @@ public class StartApp {
 			
 				
 				
-				while(opcao < 0 || opcao > 4) {
+				while(opcao < 0 || opcao > 5) {
 					System.out.println("Digite um numero para listar os respectivos cantores de cada genero");
 					opcao = scanner.nextInt();
 				}
@@ -57,7 +57,7 @@ public class StartApp {
 			    }
 		
 		 } while(opcao != 0);
-		System.out.println("\n Generos Listados*");
+		System.out.println("\n Cantores/Bandas dos Generos foram  Listados*");
 		scanner.close();
 	}
 }

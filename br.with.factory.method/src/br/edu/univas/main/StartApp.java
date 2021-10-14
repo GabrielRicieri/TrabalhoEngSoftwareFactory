@@ -64,7 +64,7 @@ public class StartApp {
 				    }
 			
 			 } while(opcao != 0);
-			System.out.println("\n Generos Listados*");
+			System.out.println("\n Cantores/Bandas dos Generos foram  Listados*");
 			scanner.close();
 	}
 }
